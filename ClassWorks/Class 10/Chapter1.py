@@ -33,3 +33,21 @@ print("date : " + str(date))  # Hey date?!
 
 # If there is a mismatch in the number of elements, you will get an error. For example:
 # Anyone is free to add comments, try Bengali? what happens? does it work? - brain tease?
+# Doesn't it look more like natural language? Does it?
+
+a = (4, 5)
+# x, y, z = p
+# Do you see a red line under idea
+# You will get a value error: need more than 2 value
+
+s = 'Hello'
+a, b, c, d, e = s
+print(a)
+
+# When unpacking, you may sometimes want to  discard certain values. Python has no special syntax for this, but you ca
+# often just pick a throwaway variable name for it.
+
+date = ['ACME', 50, 91.1, (2022, 12, 21)]
+_, shares, price, _ = data
+print(shares)
+print(price)
