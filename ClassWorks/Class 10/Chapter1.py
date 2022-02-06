@@ -20,7 +20,8 @@ print(y)  # Printing the value of y according to the structure
 
 data = ['ACME', 50, 91.1, (2022, 2, 5)]  # We are putting different data types in each bucket.
 # Look closely, you are storing String, int, float, some new kind of structure with a bunch of ints inside
-# Isn't it convenient to write in such format, Try in Java and Kotlin, its different
+# Isn't it convenient to write in such format, Try in Java and Kotlin, it's different
+# Food for thought? how do we implement the same concept in Java, JavaScript? I am sure it is differnt? Challenge C?
 
 name, shares, price, date = data
 
