@@ -39,3 +39,9 @@ The starred variable can also be the first one in the list. For example, say you
 your company's sales figures for the last eight quarters. If you want to see how the most recent quarter stacks up to the 
 average of the first seven, you could do something like this:
 '''
+
+sales_record = [1, 8, 9, 7, 6, 5, 4, 3, 2, 1]
+*trailing_qtrs, current_qtr = sales_record
+trailing_avg = sum(trailing_qtrs) / len(trailing_qtrs)
+print(trailing_avg)
+# return avg_comparison(trailing_avg, current_qtr)
