@@ -32,3 +32,4 @@ print("price : " + str(price))  # Hello price :p
 print("date : " + str(date))  # Hey date?!
 
 # If there is a mismatch in the number of elements, you will get an error. For example:
+# Anyone is free to add comments, try Bengali? what happens? does it work? - brain tease?
