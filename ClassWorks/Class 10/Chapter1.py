@@ -36,13 +36,16 @@ print("date : " + str(date))  # Hey date?!
 # Doesn't it look more like natural language? Does it?
 
 a = (4, 5)
+
 # x, y, z = p
 # Do you see a red line under idea
 # You will get a value error: need more than 2 value
 
 s = 'Hello'
 a, b, c, d, e = s
+
 # Print on screen, Next time try logging into a file by system time
+
 print("a : " + a)
 print("b : " + b)
 print("c : " + c)
