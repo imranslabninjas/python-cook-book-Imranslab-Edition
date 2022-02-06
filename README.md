@@ -1,4 +1,4 @@
-# python-cook-book-Imranslab-Edition
+# python-cook-book-imranslab-Edition
 
 Here we will do exercise from Python cook book as class
 
