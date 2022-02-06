@@ -17,3 +17,14 @@ x, y = a  # The only requirement is that the number of variables and structure m
 
 print(x)  # Printing the value of x according to the structure
 print(y)  # Printing the value of y according to the structure
+
+data = ['ACME', 50, 91.1, (2022, 2, 5)]  # We are putting different data types in each bucket.
+# Look closely, you are storing String, int, float, some new kind of structure with a bunch of ints inside
+# Isn't it convenient to write in such format, Try in Java and Kotlin, its different
+
+name, shares, price, date = data
+
+print("name : " + str(name))  # Sneaking into the variable name
+print("shares : " + str(shares))  # Pikabo shares
+print("price : " + str(price))  # Hello price :p
+print("date : " + str(date))  # Hey date?!
