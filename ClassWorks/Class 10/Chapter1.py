@@ -42,6 +42,15 @@ a = (4, 5)
 
 s = 'Hello'
 a, b, c, d, e = s
+# Print on screen, Next time try logging into a file by system time
+print("a : " + a)
+print("b : " + b)
+print("c : " + c)
+print("d : " + d)
+print("e : " + e)
+
+s = 'Hello'
+a, b, c, d, e = s
 print(a)
 
 # When unpacking, you may sometimes want to  discard certain values. Python has no special syntax for this, but you ca
