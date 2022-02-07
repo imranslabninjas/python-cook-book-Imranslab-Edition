@@ -1,6 +1,6 @@
 ''' Unpacking Elements from Iterables of Arbitrary Length
 Today I learnt: the thriple ' thing can help make multiline comment output
-Problem: You need to unpack N elements from an iterable, but the iterable may be longer than N elements, causing a
+*** Problem: *** You need to unpack N elements from an iterable, but the iterable may be longer than N elements, causing a
 Solution: Python "Star expressions" can be used to address this problem. For example, suppose you run a course and decide
 at the end of the semester that you're going to drop the first and last homework grades, and only average the rest of them.
 If there are only four assignments, maybe you simply unpack all four, but what if there are 24? A star expression makes
