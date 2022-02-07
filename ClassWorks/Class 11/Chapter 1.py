@@ -46,5 +46,6 @@ stacks up to the average of the first seven, you could do something like this: '
 sales_record = [1, 8, 9, 7, 6, 5, 4, 3, 2, 1]
 *trailing_qtrs, current_qtr = sales_record
 trailing_avg = sum(trailing_qtrs) / len(trailing_qtrs)
+'''See documentation for the sum function, how is it working?'''
 print(trailing_avg)
 # return avg_comparison(trailing_avg, current_qtr)
