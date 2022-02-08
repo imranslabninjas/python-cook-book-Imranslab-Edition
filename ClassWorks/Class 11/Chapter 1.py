@@ -28,13 +28,12 @@ As another use case, suppose you have user records that consist of a name and em
 number of phone numbers. You could unpack the records like this:
 '''
 
-record = (
-'Elon Musk', 'elonmusk@elonmusk.elonmusk', '0171xxxxxxxx..', '0181xxxxxxxxx', '01911xxxxxxxxxxxx', '0167123456789')
-name, email, *phone_numbers = record
-
-print(name)
-print(email)
-print(*phone_numbers)
+# record = ('Elon Musk', 'elonmusk@elonmusk.elonmusk', '0171xxxxxxxx..', '0181xxxxxxxxx', '01911xxxxxxxxxxxx', '0167123456789')
+# name, email, *phone_numbers = record
+#
+# print(name)
+# print(email)
+# print(*phone_numbers)
 
 '''It's worth nothing that the phone_numbers variable will always be a list, regardless of how many phone numbers are 
 unpacked including none. Thus, any code that uses phone_numbers won't have to account for the possibility tht it 
