@@ -11,16 +11,16 @@ run a course and decide at the end of the semester that you're going to drop the
 and only average the rest of them. If there are only four assignments, maybe you simply unpack all four, but what if
 there are 24? A star expression makes it easy: '''
 
-from audioop import avg
+# from audioop import avg
 
 ''' 
 No idea why did I even import this module
 '''
 
-
-def drop_first_last(grades):
-    first, middle, last = grades
-    return avg(middle)
+#
+# def drop_first_last(grades):
+#     first, middle, last = grades
+#     return avg(middle)
 
 
 '''
@@ -28,7 +28,8 @@ As another use case, suppose you have user records that consist of a name and em
 number of phone numbers. You could unpack the records like this:
 '''
 
-record = ('Elon Musk', 'elonmusk@elonmusk.elonmusk', '0171xxxxxxxx..', '0181xxxxxxxxx', '01911xxxxxxxxxxxx')
+record = (
+'Elon Musk', 'elonmusk@elonmusk.elonmusk', '0171xxxxxxxx..', '0181xxxxxxxxx', '01911xxxxxxxxxxxx', '0167123456789')
 name, email, *phone_numbers = record
 
 print(name)
