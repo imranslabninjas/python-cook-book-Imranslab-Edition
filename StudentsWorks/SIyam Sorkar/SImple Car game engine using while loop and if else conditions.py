@@ -1,4 +1,3 @@
-comand = ""
 started = False
 while True :
     U_in = input("> ").lower()
