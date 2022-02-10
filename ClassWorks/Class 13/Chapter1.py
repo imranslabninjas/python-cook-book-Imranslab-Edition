@@ -16,7 +16,7 @@
 #
 # addTwoToNumber(number)
 
-items = [1, 10, 7, 4, 5, 9]
+items = [1, 10, 7, 4, 5, 9, 4, 1, 2, 3, 4, 5, 56, 66, 70]
 head, *tail = items
 
 
