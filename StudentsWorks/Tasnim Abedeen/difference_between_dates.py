@@ -8,7 +8,7 @@ d = int(input("enter ending day:"))
 e = int(input("enter ending month:"))
 f = int(input("enter ending year:"))
 
-if a > d:  # if a is bigger than d. That means the day to be subtracted is larger. So extra 31,30,29 or 28
+if a > d:  # if a is bigger than d that means the day to be subtracted is larger. So extra 31,30,29 or 28
     # days will be added based on which month it is being subtracted from
     if e == 1:
         p = d + 31 - a
