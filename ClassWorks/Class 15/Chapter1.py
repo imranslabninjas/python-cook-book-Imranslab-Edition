@@ -41,3 +41,13 @@ print(q)
 # Why did it shrink? So, what is popping
 # Does it pop from right or from left?
 # How do we pop from the other side, is it possible? yes/ no/ very good
+
+pop1 = q.popleft()
+pop2 = q.popleft()
+
+print(pop1)
+print(pop2)
+
+print(q)
+
+# Do you notice the order? Why is it like that? analogy, appreciated!
