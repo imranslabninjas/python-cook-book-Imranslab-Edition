@@ -51,3 +51,17 @@ print(pop2)
 print(q)
 
 # Do you notice the order? Why is it like that? analogy, appreciated!
+
+'''
+Lambda Expression and introduction to functional programming
+What is Lambda Expression: It can also be called anonymous function
+Can a function be anonymous? Until whatever we learnt
+function can be anonymous and it can be used for sorting and filtering
+Recommended video: https://www.youtube.com/watch?v=25ovCm9jKfA
+'''
+
+'''
+We will learn little bit about heap data structure in this course, we wont go into too much detail. 
+We will just touch the surface.
+Recommended video: https://www.youtube.com/watch?v=hkyzcLkmoBY
+'''
