@@ -58,7 +58,17 @@ What is Lambda Expression: It can also be called anonymous function
 Can a function be anonymous? Until whatever we learnt
 function can be anonymous and it can be used for sorting and filtering
 Recommended video: https://www.youtube.com/watch?v=25ovCm9jKfA
+
+lambda argument(s) : expression
 '''
+add5 = lambda x: x + 5
+print(add5(90))
+
+square = lambda x: x * x
+print(square(5))
+
+division5 = lambda x: x / 5
+print(division5(10))
 
 '''
 We will learn little bit about heap data structure in this course, we wont go into too much detail. 
