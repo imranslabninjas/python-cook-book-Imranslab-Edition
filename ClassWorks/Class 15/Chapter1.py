@@ -67,7 +67,7 @@ print(add5(90))
 square = lambda x: x * x
 print(square(5))
 
-division5 = lambda x: x / 5
+division5 = lambda x: x // 5  # What is the difference between / and //?
 print(division5(10))
 
 '''
