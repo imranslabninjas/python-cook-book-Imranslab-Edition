@@ -85,7 +85,7 @@ Should we try setting a default value of any variable inside the lambda function
 '''
 
 addab = lambda a=8, b=9: a + b
-print(addab())  # Try it without using () after the function name i.e. print(addab), What do you see? Think!
+print(addab())  # Try it without using () after the function name i.e. print(addab), What do you see? Think! - Google?
 
 print(addab(1, 2))
 
