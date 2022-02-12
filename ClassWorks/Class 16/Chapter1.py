@@ -12,8 +12,26 @@ portfolio = [
     {'name': 'IBM', 'shares': 100, 'price': 10},
     {'name': 'FB', 'shares': 80, 'price': 20},
     {'name': 'Intel', 'shares': 90, 'price': 5},
-    {'name': 'Qualcomm', 'shares': 110, 'price': 50},
+    {'name': 'Qualcomm', 'shares': 110, 'price': 70},
     {'name': 'AMD', 'shares': 120, 'price': 40},
     {'name': 'Microsoft', 'shares': 10, 'price': 60},
     {'name': 'Oracle', 'shares': 200, 'price': 100},
 ]
+'''
+Cheapest and most expensive shares from a complicated data structure
+'''
+cheap = heapq.nsmallest(3, portfolio, key=lambda s: s['price'])
+expensive = heapq.nlargest(3, portfolio, key=lambda s: s['price'])
+
+print(cheap)
+print(expensive)
+
+'''
+Minimum and maximum number of shares from a complicated data structure
+'''
+
+minNumberShares = heapq.nsmallest(3, portfolio, key=lambda s: s['shares'])
+maxNumberShares = heapq.nlargest(3, portfolio, key=lambda s: s['shares'])
+
+print(minNumberShares)
+print(maxNumberShares)
