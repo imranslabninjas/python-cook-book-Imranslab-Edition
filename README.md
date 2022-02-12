@@ -9,3 +9,7 @@ Please do not allow any other file formats
 # Python Documentation
 
 To read https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account
+
+# Please rearrange the structure as per your requirement
+
+Please feel free to restructure the repository to make it usable for other students
