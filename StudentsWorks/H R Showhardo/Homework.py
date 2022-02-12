@@ -7,7 +7,7 @@ print('Hi, {H R Showhardo}')
 
 month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
                "November", "December"]
-print_hi(month)
+print(month)
 
 thistuple = ("1", "2","3", "4", "5","6", "7", "8","9", "10")
 print(thistuple)
@@ -25,3 +25,6 @@ print(x)
 
 myset = {"1", "2", "45", "32", "5", "6", "47", "2", "8", "1", "5", "48", "6", "45", "5", "87", "28"}
 print(myset)
+
+print("H R Showhardo")
+print("check")
