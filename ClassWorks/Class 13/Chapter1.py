@@ -15,27 +15,17 @@
 #     addTwoToNumber(number)
 #
 # addTwoToNumber(number)
-#
-# items = [1, 10, 7, 4, 5, 9, 4, 1, 2, 3, 4, 5, 56, 66, 70]
-# head, *tail = items
-#
-#
-# # print(head)
-# # print(*tail)
-#
-# def sum(items):
-#     head, *tail = items
-#     return head + sum(tail) if tail else head
-#
-#
-# sum(items)
 
-from collections import deque
+items = [1, 10, 7, 4, 5, 9, 4, 1, 2, 3, 4, 5, 56, 66, 70]
+head, *tail = items
 
 
-def search(lines, pattern="Hello", history=5):
-    previous_lines = deque(maxlen=history)
+# print(head)
+# print(*tail)
+
+def sum(items):
+    head, *tail = items
+    return head + sum(tail) if tail else head
 
 
-# search(3, "Bye", 6)
-search(5)
+sum(items)
