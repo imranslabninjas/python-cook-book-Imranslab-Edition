@@ -3,34 +3,42 @@
 
 # Example-1
 
-# a = (4, 5, 6)
-# x, y, z = a  # this line unpacks values
-# print(x)  # x will print 4
-# print(y)  # y will print 5
-# print(z)  # z will print 6
-#
-# # k, m = a    # error: too many values to unpack (expected 2)
-# # print(k)
-# # print(m)
-#
-# # b, c, d, e = a   # ValueError: not enough values to unpack (expected 4, got 3)
-# # print(b)
-# # print(c)
-# # print(d)
-# # print(e)
-#
-# # Example-2
+a = (4, 5, 6)
+x, y, z = a  # this line unpacks values
+print(x)  # x will print 4
+print(y)  # y will print 5
+print(z)  # z will print 6
 
-# data = ['xyz', 40, (13, 2, 1982), 'Teaching']
-# name, age, DOB, profession = data
-# d, m, y = DOB
-# # name, age, (d, m, y), profession = data
-# print('Name:', name)
-# print('date of birth:', DOB)
-# print('profession:', profession)
-# print('day', d)
-# print('month', m)
-# print('year', y)
+# Possible error while unpacking
+
+k, m = a    # error: too many values to unpack (expected 2)
+print(k)
+print(m)
+
+b, c, d, e = a   # ValueError: not enough values to unpack (expected 4, got 3)
+print(b)
+print(c)
+print(d)
+print(e)
+
+# Example-2
+
+data = ['xyz', 40, (13, 2, 1982), 'Teaching']
+name, age, DOB, profession = data
+d, m, y = DOB
+print('Name:', name)
+print('date of birth:', DOB)
+print('profession:', profession)
+print('day', d)
+print('month', m)
+print('year', y)
+
+# Another variation
+
+name, age, (day, mon, year), profession = data
+print(age)
+print('day', day)
+print('year', year)
 
 # Example-3
 
