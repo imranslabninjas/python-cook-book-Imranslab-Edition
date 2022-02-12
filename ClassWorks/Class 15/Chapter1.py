@@ -61,14 +61,33 @@ Recommended video: https://www.youtube.com/watch?v=25ovCm9jKfA
 
 lambda argument(s) : expression
 '''
-add5 = lambda x: x + 5
-print(add5(90))
+# add5 = lambda x: x + 5
+# print(add5(90))
+#
+# square = lambda x: x * x
+# print(square(5))
+#
+# division5 = lambda x: x // 5  # What is the difference between / and //?
+# print(division5(10))
+#
+# division6 = lambda x: x/6
+# print(division6(36))
 
-square = lambda x: x * x
-print(square(5))
+'''
+Let us try to make Lambda Functions with more than one arguments
+lambda arguments : expression
+'''
+addab = lambda a, b: a + b
+print(addab(2, 3))
 
-division5 = lambda x: x // 5  # What is the difference between / and //?
-print(division5(10))
+'''
+Should we try setting a default value of any variable inside the lambda function? Lets see what happens
+'''
+
+addab = lambda a=8, b=9: a + b
+print(addab())  # Try it without using () after the function name i.e. print(addab), What do you see? Think!
+
+print(addab(1, 2))
 
 '''
 We will learn little bit about heap data structure in this course, we wont go into too much detail. 
