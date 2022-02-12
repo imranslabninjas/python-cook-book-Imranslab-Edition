@@ -34,3 +34,8 @@ As another use case, suppose you have user records that consist of a name and em
 address, followed by an arbitrary number of phone numbers. You could unpack the
 records like this:
 '''
+info = ('hira', 1522085642, 'annyhira@gmail.com', '017000000', '01900000000', '01511111111'  )
+
+name, id, email, *phone_numbers =info
+print(name)
+print(phone_numbers)
