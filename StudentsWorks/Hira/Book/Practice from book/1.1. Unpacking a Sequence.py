@@ -93,6 +93,35 @@ print(a)
 print(p)
 print(getout)
 
+s = 'Hello'
+a, b, c, d, e = s
+
+# Print on screen, Next time try logging into a file by system time
+
+print("a : " + a)
+print("b : " + b)
+print("c : " + c)
+print("d : " + d)
+print("e : " + e)
+
+s = 'wow i'
+a, b, c, d, e = s
+print("a : ", a)
+print("b : ", b)
+print("c : ", c)
+print("d : ", d)
+print("e : ", e)
+
+#that's cool man
+s = 'wow i'
+a, b, c, d, c = s
+
+
+print("a : ", a)
+print("b : ", b)
+print("c : ", c)
+print("d : ", d)
+print("e : ", c)
 
 
 
