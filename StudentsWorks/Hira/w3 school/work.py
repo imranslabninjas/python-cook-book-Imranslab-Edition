@@ -92,5 +92,64 @@ If you have a collection of values in a list, tuple etc. Python allows you to ex
 '''
 
 fruits = ['banana', 'apple', 'orange']
-x ,y ,z =fruits
+x ,y ,z = fruits
 print(x)
+
+
+'''
+Python - Global Variables
+Date : 16/2/2022
+
+Variables that are created outside of a function.Global variables can be used by everyone, both inside of functions and outside.
+Create a variable outside of a function, and use it inside the function
+
+'''
+
+a = "awesome"
+
+def myfunc():
+  print("Python is " + a)
+
+myfunc()
+
+text = "python"
+
+def myText():
+    print('i love', text)
+
+myText()
+'''
+Create a variable inside a function, with the same name as the global variable
+'''
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+#To create a global variable inside a function, you can use the global keyword.
+#If you use the global keyword, the variable belongs to the global scope:
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+#To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "yoo"
+
+myfunc()
+
+print("Python is " + x)
