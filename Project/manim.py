@@ -16,3 +16,5 @@ class MyFirstAnimation(Scene):
         self.wait(0.5)
         # Remove the circle by fading it out
         self.play(FadeOut(circle))
+
+        # https://www.linux-magazine.com/Issues/2021/248/Manim/(tagID)/155
