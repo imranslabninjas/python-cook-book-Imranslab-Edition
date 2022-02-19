@@ -51,4 +51,4 @@ W = M[0]
 for i in range(2, len(M)+1):
   W = W+M[i+1]
 print(W)
-
+# https://oracle.zoom.us/my/mike.scriber?pwd=RGJNWW1aS1ZVUGVVTGFHVU5yVm9KUT09
