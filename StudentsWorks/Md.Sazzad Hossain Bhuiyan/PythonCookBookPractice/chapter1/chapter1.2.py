@@ -63,5 +63,3 @@ for i, *j in records:
         record2(*j)
     else:
         record3(*j)
-
-

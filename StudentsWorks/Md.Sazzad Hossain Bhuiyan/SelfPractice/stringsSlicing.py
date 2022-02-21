@@ -64,5 +64,6 @@ print(b, '\n')
 a = "HelloWorld!"
 b = a.split('W')
 print(b) # ['Hello', 'orld!'] will be print
+
 b = ' W'.join(a.split('W'))
 print(b)  # Hello World! will be print
