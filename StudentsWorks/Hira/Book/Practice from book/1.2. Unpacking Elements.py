@@ -5,7 +5,7 @@ print("1.2. Unpacking Elements from Iterables of Arbitrary Length")
 
 from audioop import avg
 
-''' 
+'''
 No idea why did I even import this module
 '''
 
@@ -76,3 +76,27 @@ for info, *rec in records:
         number2(*rec)
     elif info == "yuu":
         textnew(*rec)
+
+
+'''
+2nd practice. 1) create a tuple - nestes information
+
+'''
+students = [
+    ("names", "hira", "dany", "hafiz", "Hasiv"),
+    ("id", 2, 1, 4, 3),
+    ("names", "habiba", "Hasna", "poran", " babu"),
+]
+
+def nameof_st (a,b,c,d):
+    print("names",a, b, c, d)
+
+def id (f, g, h, i):
+    print("id",f, g, h, i)
+
+for students_name, *all_name in students:
+    if students_name == "names":
+      nameof_st(*all_name)
+    elif students_name == "id":
+        id(*all_name)
+
