@@ -48,6 +48,7 @@ for tag, *args in records1:
     elif tag == 'bar':
         do_bar(*args)
 print('\n')
+
 # Example-3  (Unpacking Using Lambda Expression)
 
 records = [('A', 1, 2.03), ('B', 'hello'), ('a', 3, 4)]
@@ -62,3 +63,5 @@ for i, *j in records:
         record2(*j)
     else:
         record3(*j)
+
+
