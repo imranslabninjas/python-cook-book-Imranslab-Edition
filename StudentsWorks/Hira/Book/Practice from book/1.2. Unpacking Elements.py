@@ -77,7 +77,6 @@ for info, *rec in records:
     elif info == "yuu":
         textnew(*rec)
 
-
 '''
 2nd practice. 1) create a tuple - nestes information
 
@@ -85,29 +84,28 @@ for info, *rec in records:
 students = [
     ("names", "hira", "dany", "hafiz", "Hasiv"),
     ("id", 2, 1, 4, 3),
-    ("names", "habiba", "Hasna", "poran", " babu"),
+    ("names", "habiba", "Hasna", "poran", "babu"),
 ]
 
-def nameof_st (a,b,c,d):
-    print("names",a, b, c, d)
 
-def id (f, g, h, i):
-    print("id",f, g, h, i)
+def nameof_st(a, b, c, d):
+    print("names", a, b, c, d)
+
+
+def id(f, g, h, i):
+    print("id", f, g, h, i)
+
 
 for students_name, *all_name in students:
     if students_name == "names":
-      nameof_st(*all_name)
+        nameof_st(*all_name)
     elif students_name == "id":
         id(*all_name)
-
-
-
 
 '''
 3rd time practice. same problem
 
 '''
-
 
 library = [
     ("books", "python cook book ", "learn with python", "introduction to Java", " introduction to Java"),
@@ -117,14 +115,26 @@ library = [
     ("books", "python for kids", "coding project in python", "python in easy steps", "Programming Python")
 ]
 
-# def name_of_books(A,B,C,D):
-#     print(A,B,C,D)
-#
-# def name_of_index(E,F,G,H):
-#     print(E,F,G,H)
+
+def name_of_books(A, B, C, D):
+    print("books", A, B, C, D)
+
+
+def name_of_index(E, F, G, H):
+    print("index", E, F, G, H)
+
 
 for books_name, *all_books_name in library:
     if books_name == "books":
-        print(*all_books_name)
+        name_of_books(*all_books_name)  # print(*all_books_name)
     elif books_name == "index":
-        print(*all_books_name)
+        name_of_index(*all_books_name)  # print(*all_books_name)
+
+
+
+'''
+
+'''
+line = 'nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false'
+ uname, *fields, homedir, sh = line.split(':')
+    print(uname)
