@@ -5,3 +5,9 @@
 #     d[keys[i]] = values[i]
 #     print(values)
 #     print
+
+#
+# my_dict = {'foo': 'bar', 'spam': 'eggs'}
+# print(next(iter(my_dict))) # outputs 'foo
+#
+# # next(iter( my_dict.items() ))
