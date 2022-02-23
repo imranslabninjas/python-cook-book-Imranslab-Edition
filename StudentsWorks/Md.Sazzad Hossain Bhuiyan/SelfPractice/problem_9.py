@@ -6,9 +6,12 @@ Def isDictionaryEmpty(dictionary):
 Return isDictEmpty  #How do you understand this is empty
 """
 
-dict = {}
-def empty_dict(dictionary):
-    """ This empty_dict() method will retun boolean value True if empty otherwise False"""
-    return not bool(dictionary)
+dict = {"name": "m.i"}
 
-print(empty_dict(dict))
+
+def isEmpty_check(z):
+    """ This isEmpty_check() method will retun boolean value True if empty otherwise False"""
+    return not bool(z)
+
+
+isEmpty_check(dict)
