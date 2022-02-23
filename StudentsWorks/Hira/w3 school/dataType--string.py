@@ -201,3 +201,57 @@ print("are" not in txt)
 txt = "The best things in life are free!"
 if "expensive" not in txt:
   print("yes ! expensive is not found ")
+
+
+'''
+23 /2 /2022
+((( Python - Slicing Strings )))
+ou can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+Example
+Get the characters from position 2 to position 5 (not included):
+'''
+
+b = "Hello, World!"
+print("the characters from position 2 to position 5",b[2:5])
+
+# (((Slice From the Start)))
+name = "water"
+print(name[:2])
+
+# (((Slice From the End)))
+name = "apple"
+print(name[2:])
+
+b = "Hello, World!"
+print(b[-5:-2])
+
+'''
+Python - Modify Strings
+
+'''
+#upper case
+a = "hlw"
+b =  "python"
+text = a.upper()
+print(text)
+print(b.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+'''
+(((Remove Whitespace)))
+Whitespace is the space before and/or after the actual text, and very often you want to remove this space.
+
+Example
+The strip() method removes any whitespace from the beginning or the end:
+
+
+'''
+
+a = "                    Hello, World! "
+print(a)
+print(a.strip())
