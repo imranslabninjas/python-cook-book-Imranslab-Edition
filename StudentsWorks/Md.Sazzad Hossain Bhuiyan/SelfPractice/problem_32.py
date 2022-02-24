@@ -12,14 +12,14 @@ list1 = ["mango", "banana", "dragon", "orange", "goava"]
 str1 = ", "
 str2 = " * "
 
-print(s + str1.join(list1))
-print(s +" "+ str2.join(list1))
-print(s +" "+ "# ".join(list1))
+# print(s +" "+ str1.join(list1))
+# print(s +" "+ str2.join(list1))
+# print(s +" "+ "# ".join(list1))
 
 list2 = [1, 2, 3, 4, 5, 6, 7]
 list2 = [str(element) for element in list2]
 
-print(str + "* ".join(list2))
+print(s + " , ".join(list2))
 
 
 
