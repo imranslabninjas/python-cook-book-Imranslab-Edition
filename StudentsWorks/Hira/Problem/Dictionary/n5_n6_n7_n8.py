@@ -69,3 +69,8 @@ print(may) # this popitem work for the last key
 print('\n The clear() keyword empties the dictionary:')
 may.clear()
 print("This dictionary is empty", may)
+
+
+'''6: Write a Python program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x). Where the key is x and the value is x*x. Please make a dictionary which has elements more than 5 but less than 10.
+Sample Dictionary ( n = 5) :
+Expected Output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}'''
