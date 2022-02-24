@@ -232,9 +232,9 @@ print(b[-5:-2])
 Python - Modify Strings
 
 '''
-#upper case
+# upper case
 a = "hlw"
-b =  "python"
+b = "python"
 text = a.upper()
 print(text)
 print(b.upper())
@@ -255,3 +255,47 @@ The strip() method removes any whitespace from the beginning or the end:
 a = "                    Hello, World! "
 print(a)
 print(a.strip())
+
+"""
+Python - Format - Strings
+
+"""
+# wrong way
+# age = 36
+# txt = "My name is John, I am " + age
+# print(txt)
+'''
+But we can combine strings and numbers by using the format() method!
+The format() method takes the passed arguments, formats them, and places them in the string 
+where the placeholders {} are:
+'''
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+text = "i have  {} taka"
+text2 = "I give you just {} min "
+print(text.format(20))
+print(text2.format(30))
+
+up = "{} up i my favourite ,{} liter ,price is now {} tk "
+name = 7
+weight = 1
+price = 65
+print(up.format(name, weight, price))
+
+'''
+(((String Methods)))
+Python has a set of built-in methods that you can use on strings.
+
+Note: All string methods returns new values.""""""" They do not change the original string.""""""""
+'''
+# Python String capitalize() Method
+# The first character is converted to upper case, and the rest are converted to lower case:
+txt = "hello, and welcome to my world."
+x = txt.capitalize()
+print(x)
+
+txt = "36 is my age."
+x = txt.capitalize()
+print(x)

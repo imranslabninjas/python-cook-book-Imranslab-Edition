@@ -40,18 +40,21 @@ sample_dict_4 = {
 
 sample_list = [sample_dict, sample_dict_2, sample_dict_3, sample_dict_4]
 
+
 def rename_key(sample_dict_to_change):
     if sample_dict_to_change.keys().__contains__("city"):
         sample_dict_to_change["location"] = sample_dict_to_change.pop("city")
     return sample_dict_to_change
 
-def a(list_of_dicts):
-  """ a() method will modify key of dictionaries and returns modified list of dictionaries """
-  new_list_of_dicts = []
-  for dict in list_of_dicts:
-    new_list_of_dicts.append(rename_key(dict))
 
-  return list_of_dicts
+def a(list_of_dicts):
+    """ a() method will modify key of dictionaries and returns modified list of dictionaries """
+    new_list_of_dicts = []
+    for dict in list_of_dicts:
+        new_list_of_dicts.append(rename_key(dict))
+
+    return list_of_dicts
+
 
 print(rename_key(sample_dict))
 
