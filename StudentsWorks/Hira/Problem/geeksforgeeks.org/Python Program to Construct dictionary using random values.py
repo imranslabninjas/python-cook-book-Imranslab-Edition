@@ -22,6 +22,27 @@ In this, we iterate through each element in list and assign random number select
 using randint() to construct key value pair dictionary.
 '''
 # Using randint() + loop
+# from random import randint
+#
+# # initializing list
+# test_list = ["Gfg", "is", "Best"]
+#
+# # printing original list
+# print("The original list is : " + str(test_list))
+#
+# # initializing range
+# i, j = 2, 9
+#
+# res = dict()
+# for ele in test_list:
+#     # assigning random elements
+#     res[ele] = randint(i, j)
+#
+# # printing result
+# print("Random range initialized dictionary : " + str(res))
+
+
+# ********************************* 2nd way *********************************
 from random import randint
 
 # initializing list
@@ -33,13 +54,32 @@ print("The original list is : " + str(test_list))
 # initializing range
 i, j = 2, 9
 
-res = dict()
-for ele in test_list:
-    # assigning random elements
-    res[ele] = randint(i, j)
-
+# assigning random elements
+# dictionary comprehension used as shorthand
+res = {ele : randint(i, j) for ele in test_list}
+#  res = {"Gfg" : 3, "is" : 5, "Best" : 8}
 # printing result
 print("Random range initialized dictionary : " + str(res))
+
+# *************************** my practice time *******************************
+
+# import
+import random
+# create a dic {}
+#name = {"1": "dany", "2": "Hira", "3": "Hasib", "4": "Hafiz"}
+# THis is wrong .
+# creat e list
+name = ['Dany', 'Hira', 'hafiz', 'hasib']
+print("this is the main list ", str(name))
+
+# random value initializing range
+a, b = 2,5
+
+create_dict = {num : randint(a,b) for num in name}
+print("this is a dictionary ",str(create_dict))
+
+
+
 
 ''' 
 what is randint in python ? 
@@ -73,6 +113,7 @@ dict1 = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 # Put all keys of `dict1` in a list and returns the list
 print(dict1.keys())
 print(dict1.values())
+print(dict1.items())
 
 a = {'apple': 'fruit', 'beetroot': 'vegetable', 'cake': 'dessert'}
 print(a['apple'])
