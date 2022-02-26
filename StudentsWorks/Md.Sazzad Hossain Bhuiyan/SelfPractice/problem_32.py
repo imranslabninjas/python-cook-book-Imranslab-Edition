@@ -1,6 +1,6 @@
 """ 32 : Generic operations. Run interactive tests to answer the following questions:
 a. What happens when you try to use the + operator on different/mixed types
-(e.g., string+ list, list + tuple)?
+(e.geeksforgeeks.org., string+ list, list + tuple)?
 b. Does + work when one of the operands is a dictionary?
 Does the append method work for both lists and strings? How about using the keys method on lists?
 (Hint: What does append assume about its subject object?)

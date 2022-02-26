@@ -142,3 +142,12 @@ print(first_two)
 
 first_three = list(dict_items)[:3]
 print(first_three)
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)
