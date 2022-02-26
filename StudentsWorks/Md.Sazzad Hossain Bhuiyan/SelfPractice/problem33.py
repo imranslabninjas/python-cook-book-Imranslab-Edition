@@ -14,7 +14,10 @@ It is to make sure Gucci can survive artificial weather created on Mars by Nucle
 create an artificial customizable weather which helped create a mini Bangladesh on Mars and the weather is just like home. Please assume the number of days for a year
 on Mars equals that of earth in this approximate calculation.
 """
+
+
 import random
+
 dict1 = {1: "Moslin Punjabi", 2: "Jamdani Punjabi", 3: "Banarasi Punjabi"}
 dict2 = {1: "half raincoat", 2: "raincoat with attached umbrella", 3: "Big Umbrella"}
 dict3 = {1: "jacket", 2: "semi light winter jacket", 3: "light winter jacket"}
@@ -22,19 +25,22 @@ dict4 = {1: "Punjabi", 2: "Jamdani", 3: "Banarasi"}
 dict5 = {1: "Muslin", 2: "taat", 3: "bootik"}
 dict6 = {1: "Shirts", 2: "Pants", 3: "Shorts"}
 
-def dict_list(*new_dicts):
-    new_dict_to_send = {}
-    if len(new_dicts) == 3:
-        var1 = random.randrange(1, 3, 1)
-        for new_dict in new_dicts:
-            # we have to find now first element which have empty String
-            for each_element in new_dict_to_send:
-                # we have to iterate
-                if new_dict_to_send[each_element] == " ":
-                    new_dict_to_send[each_element] = new_dict[var1]
 
+def dict_list(*new_dicts):
+    list_of_new_dicts = list(new_dicts)
+    new_dict_to_send = {}
+    keys = [0, 1, 2, 3, 4, 5]
+    if len(new_dicts) == 6:
+        # var1 = random.randrange(1, 4, 1)
+        for each_element in keys:
+            for new_dict in new_dicts:
+                if new_dict == list_of_new_dicts[each_element]:
+                    var1 = random.randrange(1, 4, 1)
+                    new_dict_to_send[each_element + 1] = new_dict[var1]
     else:
         print("You haven't entered six elements")
     return new_dict_to_send
 
-print(dict_list(dict1, dict2, dict3))
+
+
+print(dict_list(dict1, dict2, dict3, dict4, dict5, dict6))
