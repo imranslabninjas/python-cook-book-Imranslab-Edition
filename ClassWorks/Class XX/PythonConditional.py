@@ -54,18 +54,22 @@ class Student:
         self.max_degree_obtained = max_degree_obtained
         self.marks = marks
 
-    def average_marks(self, *marks):
-        return (sum(marks)/ len(marks))
+    def average_marks(self):
+        return (sum(self.marks)/ (len(self.marks)))
 
 
-sazzad = Student("Sazzad", "1995-01-01", "PhD", 10, 10, 10 ,10, 10)
+sazzad = Student("Sazzad", "1995-01-01", "PhD", 10, 10, 10, 10, 10)
 hira = Student("Anny Hira", "2008-01-01", "SSC", 10, 11, 9, 10, 12)
-Siyam = Student("Siyam", "1991-01-01", "Post Doc", 9, 11, 12, 12, 14)
-Sobuz = Student("Sobuz", "1992-01-01", "PhD", 9, 11, 12, 11, 12)
-Sadikur = Student("Sadikur", "1993-01-01", "Master", 9, 11, 12, 10, 10)
+siyam = Student("Siyam", "1991-01-01", "Post Doc", 9, 11, 12, 12, 14)
+sobuz = Student("Sobuz", "1992-01-01", "PhD", 9, 11, 12, 11, 12)
+sadikur = Student("Sadikur", "1993-01-01", "Master", 9, 11, 12, 10, 10)
 
 string1 = "Average marks for the student "
 
-print(string1 + sazzad.name + " is " + sazzad.average_marks())
+print(string1 + sazzad.name + " is " + str(sazzad.average_marks()))
+print(string1 + hira.name + " is " + str(hira.average_marks()))
+print(string1 + siyam.name + " is " + str(siyam.average_marks()))
+print(string1 + sobuz.name + " is " + str(sobuz.average_marks()))
+print(string1 + sadikur.name + " is " + str(sadikur.average_marks()))
 
 
