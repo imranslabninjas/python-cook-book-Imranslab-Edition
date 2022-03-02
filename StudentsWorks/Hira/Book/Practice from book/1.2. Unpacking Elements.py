@@ -130,11 +130,24 @@ for books_name, *all_books_name in library:
     elif books_name == "index":
         name_of_index(*all_books_name)  # print(*all_books_name)
 
-
-
 '''
 
 '''
-line = 'nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false'
- uname, *fields, homedir, sh = line.split(':')
-    print(uname)
+print("\n")
+line = 'nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/:/false user'
+uname, *fields,homedir, sh, k, pk = line.split(':')
+print(uname)
+print(fields)
+print(homedir)
+print(sh)
+print(k)
+print(pk)
+
+print("\n")
+*take, get = [1, 2, 3, 4, 5, 6, 7, 8, 20]
+print(take)
+print(get)
+print("\nlook ")
+take1, *get1 = [1, 2, 3, 4, 5, 6, 7, 8, 20]
+print(take1)
+print(get1)

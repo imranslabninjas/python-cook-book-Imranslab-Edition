@@ -28,7 +28,7 @@ class Actor:
 #
 # # printing Object 1 information
 # print("My name is :" + p1.name)
-# print("My name is :" + str(p1.age))
+# print("My age is :" + str(p1.age))
 # print("Movies of " + p1.name +" is :"+ str(p1.movies))
 #
 # # printing Object 1 information
