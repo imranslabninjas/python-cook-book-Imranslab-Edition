@@ -19,11 +19,10 @@ class actor():
 
 
 # make object for 1 person
-person1 = actor('hira', 2, 5.3, '50kg', "mlik", "foods","Biriyani", "cake","pudding", "chips", "biscutes")
+person1 = actor('hira', 2, 5.3, '50kg', "mlik", "foods", "Biriyani", "cake", "pudding", "chips", "biscutes")
 
 print("the person1 name is :", person1.takeName)
 print("the person 1 id no is :", person1.takeIdNo)
 print("the person1 height is :", person1.takeHeight)
 print("the person 1 id wight is :", person1.takeWight)
 print("the person1 lisk items is :", person1.takeLikeItems)
-
