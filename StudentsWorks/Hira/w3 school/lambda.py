@@ -79,4 +79,24 @@ models = [{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Max', 
 print("Original list of dictionaries :", models)
 
 new_models = sorted(models, key=lambda x: x['color'])
+give_make = sorted(models, key=lambda x: x['make'])
 print(new_models)
+print(give_make)
+
+'''
+5. Write a Python program to filter a list of integers using Lambda. Go to the editor
+Original list of integers:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Even numbers from the said list:
+[2, 4, 6, 8, 10]
+Odd numbers from the said list:
+[1, 3, 5, 7, 9]
+'''
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 22, 898, 2000, 200555, 5]
+print(numbers)
+even_number = list(filter(lambda X: X % 2 == 0, numbers))
+print(even_number)
+
+odd_number = list(filter(lambda x: x % 2 != 0, numbers))
+print(odd_number)
