@@ -84,7 +84,7 @@ print(new_models)
 print(give_make)
 
 '''
-5. Write a Python program to filter a list of integers using Lambda. Go to the editor
+5. Write a Python program to filter a list of integers using Lambda. 
 Original list of integers:
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Even numbers from the said list:
