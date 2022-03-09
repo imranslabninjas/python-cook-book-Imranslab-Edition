@@ -13,7 +13,7 @@ Cube every number of the said list:
 # wrong way
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(num)
-square_num = list(filter(lambda x: x ^ 2, num)) # don't use the filter method  && ^ don't
+square_num = list(filter(lambda x: x ^ 2, num))  # don't use the filter method  && ^ don't
 print(square_num)
 
 '''
@@ -29,3 +29,13 @@ print(square_nums)
 print("\nCube every number of the said list:")
 cube_nums = list(map(lambda x: x ** 3, nums))
 print(cube_nums)
+
+'''
+Write a Python program to find whether a given string starts with a given character using Lambda.
+
+
+'''
+starts_with = lambda x: True if x.startswith('P') else False
+print(starts_with('Python'))
+starts_with = lambda x: True if x.startswith('P') else False
+print(starts_with('Java'))
