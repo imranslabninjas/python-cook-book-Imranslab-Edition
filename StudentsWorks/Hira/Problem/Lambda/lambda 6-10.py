@@ -36,6 +36,39 @@ Write a Python program to find whether a given string starts with a given charac
 
 '''
 starts_with = lambda x: True if x.startswith('P') else False
-print(starts_with('Python'))
+# print(starts_with('python'))
 starts_with = lambda x: True if x.startswith('P') else False
-print(starts_with('Java'))
+# print(starts_with('java'))
+
+# x.startswith is a method
+# case-sensitive
+# only find out first word
+
+text = lambda x: x.startswith('w')
+print(text("wow"))
+
+text1 = lambda x: True if x.startswith('o') else False
+print(text1("oiiiiii"))
+
+print("\n")
+'''
+Write a Python program to extract year, month, date and time using Lambda.
+
+
+
+'''
+
+import datetime
+
+now1 = datetime.datetime.now()  # why datetime 2nd time
+print(now1)
+thisyear = lambda x: x.year  # thisyear is a  variable
+thismonth = lambda x: x.month
+thisday = lambda x: x.day
+thist = lambda x: x.time()
+print(thisyear(now1))
+print(thismonth(now1))
+print(thisday(now1))
+print(thist(now1))
+
+nowTime = datetime.datetime.now()  # this are mathods
