@@ -31,7 +31,7 @@ cube_nums = list(map(lambda x: x ** 3, nums))
 print(cube_nums)
 
 '''
-Write a Python program to find whether a given string starts with a given character using Lambda.
+7 . Write a Python program to find whether a given string starts with a given character using Lambda.
 
 
 '''
@@ -52,7 +52,7 @@ print(text1("oiiiiii"))
 
 print("\n")
 '''
-Write a Python program to extract year, month, date and time using Lambda.
+8 . Write a Python program to extract year, month, date and time using Lambda.
 
 
 
@@ -72,3 +72,43 @@ print(thisday(now1))
 print(thist(now1))
 
 nowTime = datetime.datetime.now()  # this are mathods
+
+'''
+9. Write a Python program to check whether a given string is number or not using Lambda. Go to the editor
+Sample Output:
+True
+True
+False
+True
+False
+True
+Print checking numbers:
+True
+True
+
+aita korbo na cz aiter dorker nai 
+
+'''
+
+is_num = lambda q: q.replace('.', '', 1).isdigit() # why '.' '' 1 ?
+print(is_num('26587'))
+print(is_num('4.2365'))
+print(is_num('-12547'))
+print(is_num('00'))
+print(is_num('A001'))
+print(is_num('001'))
+print("\nPrint checking numbers:")
+is_num1 = lambda r: is_num(r[1:]) if r[0] == '-' else is_num(r)
+print(is_num1('-16.4'))
+print(is_num1('-24587.11'))
+
+'''
+onther way  takes input value 
+'''
+
+# Doesn't work for floats
+text = input("Input a word or numbers: ")
+if text.isdigit():
+    print("The input value is numbers.")
+else:
+    print("The input value is string.")
