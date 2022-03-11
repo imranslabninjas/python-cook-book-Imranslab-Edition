@@ -35,3 +35,14 @@ odd_ctr = len(list(filter(lambda x: (x % 2 != 0), array_nums)))
 even_ctr = len(list(filter(lambda x: (x % 2 == 0), array_nums)))
 print("\nNumber of even numbers in the above array: ", even_ctr)
 print("\nNumber of odd numbers in the above array: ", odd_ctr)
+
+'''
+14 .Write a Python program to find the values of length six in a given list using Lambda.
+
+
+'''
+print("\n")
+weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+days = filter(lambda day: day if len(day) == 6 else '', weekdays)
+for d in days:
+    print("wow 3 days ",d)
