@@ -100,3 +100,8 @@ print(even_number)
 
 odd_number = list(filter(lambda x: x % 2 != 0, numbers))
 print(odd_number)
+
+'''
+semiler  (using filter method problem no 11 see- lambda 11-15.py ).
+
+'''
