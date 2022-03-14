@@ -40,7 +40,7 @@ print(result)
 
 '''
 13. Write a Python program to count the even, odd numbers in a given array of integers using Lambda
-that means fine the lenth
+that means fine the length
 '''
 
 array_nums = [1, 2, 3, 5, 7, 8, 9, 10]
@@ -50,13 +50,39 @@ even_ctr = len(list(filter(lambda x: (x % 2 == 0), array_nums)))
 print("\nNumber of even numbers : ", even_ctr)
 print("\nNumber of odd numbers : ", odd_ctr)
 
+# me find evem and odd number length
+my_array = [22, 33, 44, 55, 121, 344, 67, 899, 444, 555, 343, 448]
+found_even = list(filter(lambda x: x % 2 == 0, my_array))
+print('This is only even number', found_even)
+found_len_even = len(found_even)
+print('Here Length ', found_len_even)
+
 '''
 14 .Write a Python program to find the values of length six in a given list using Lambda.
 
 
 '''
 print("\n")
-weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-days = filter(lambda day: day if len(day) == 6 else '', weekdays)
+weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Hasibb']
+days = filter(lambda day: day if len(day) == 6 else '', weekdays)  # here Day in nor a mathod
 for d in days:
     print("wow 3 days ", d)
+
+'''
+The filter() function returns an iterator were the items are filtered
+through a function to test if the item is accepted or not.
+filter() ফাংশন একটি পুনরাবৃত্তিকারী প্রদান করে যেখানে
+আইটেমটি গৃহীত হয়েছে কিনা তা পরীক্ষা করার জন্য একটি ফাংশনের মাধ্যমে আইটেমগুলি ফিল্টার করা হয়।
+'''
+
+'''
+15. Write a Python program to add two given lists using map and lambda. Go to the editor
+Original list:
+[1, 2, 3]
+[4, 5, 6]
+'''
+
+l1 = [1, 2, 3]
+list2 = [4, 5, 6]
+adding = map(lambda x, y: x + y, l1, list2)
+print(list(adding))
