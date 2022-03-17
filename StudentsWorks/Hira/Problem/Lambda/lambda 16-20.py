@@ -40,4 +40,18 @@ print(nums)
 result = list(filter(lambda x: (x % 19 == 0 or x % 13 == 0), nums))
 print("\nNumbers of the above list divisible by nineteen or thirteen:")
 print(result)
+nums2 = [20, 200, 2000, 30, 40, 60, 33, 44, 66, 89]
+result2 = list(filter(lambda x: (x % 20 == 0 or x % 30 == 0), nums2))
+print(nums2)
+print(result2)
+
+
+
+from collections import Counter
+texts = ["bcda", "abce", "cbda", "cbea", "adcb"]
+str = "abcd"
+print(texts)
+result = list(filter(lambda x: (Counter(str) == Counter(x)), texts))
+print("\nAnagrams of 'abcd' in the above string: ")
+print(result)
 
