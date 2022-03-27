@@ -46,6 +46,7 @@ class Actor:
 # print("My name is :" + p2.name)
 # print("My name is :" + str(p2.age))
 
+# https://datatofish.com/read_excel/
 
 class Student:
     def __init__(self, name, date_of_birth, max_degree_obtained, *marks):
@@ -66,10 +67,8 @@ sadikur = Student("Sadikur", "1993-01-01", "Master", 9, 11, 12, 10, 10)
 
 string1 = "Average marks for the student "
 
-print(string1 + sazzad.name + " is " + str(sazzad.average_marks()))
-print(string1 + hira.name + " is " + str(hira.average_marks()))
-print(string1 + siyam.name + " is " + str(siyam.average_marks()))
-print(string1 + sobuz.name + " is " + str(sobuz.average_marks()))
-print(string1 + sadikur.name + " is " + str(sadikur.average_marks()))
+all_students = [sazzad, hira, siyam, sobuz, sadikur]
 
+for student in all_students:
+    print(string1 + student.name + " is " + str(student.average_marks()))
 
