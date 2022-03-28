@@ -1,4 +1,4 @@
-
+# To be changed --> Not right below
 class Ownership:
     def __init__(self, staff, student):
         self.staff = staff
