@@ -2,12 +2,12 @@ from enum import Enum
 
 
 class District(Enum):
-    Dhaka = "Dhaka"
-    Chittagong = "Chittagong"
-    Pabna = "Pabna"
-    Cumilla = "Cumilla"
-    Dinajpur = "Dinajpur"
     Chandpur = "Chandpur"
+    Chittagong = "Chittagong"
+    Cumilla = "Cumilla"
+    Dhaka = "Dhaka"
+    Dinajpur = "Dinajpur"
+    Pabna = "Pabna"
     Gaibandha = "Gaibandha"
     Kurigram = "Kurigram"
     Laimonirhat = "Laimonirhat"
