@@ -9,3 +9,4 @@ class Student(Enum):
     masumkazi = "Masum Kazi"
     sazzadbhuiyan = "Sazzad Bhuiyan"
     woalidhassan = "Woalid Hassan"
+    siyem = "Siyem"
