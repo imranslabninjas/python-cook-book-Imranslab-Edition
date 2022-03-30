@@ -10,7 +10,6 @@ Example:
 
 
 def solution(string1, string2):
-
     string1 = string1.lower()
     string2 = string2.lower()
 
@@ -36,8 +35,14 @@ def solution(string1, string2):
     else:
         return False
 
-"""Assuming we can import Counter from collections"""
+
+"""
+Assuming we can import Counter from collections
+"""
+
 from collections import Counter
+
+
 def solution2(string1, string2):
     if len(string1) != len(string2):
         return False
@@ -54,6 +59,8 @@ Using Sorting function
 T(n) = O(nlogn) + O(nlogn) + n
     ~= n
 """
+
+
 def solution3(string1, string2):
     if len(string1) != len(string2):
         return False
@@ -65,8 +72,8 @@ def solution3(string1, string2):
 
 
 """Driver Code"""
-s1 = "nameless"
-s2 = "salesman"
+s1 = "fiRes"
+s2 = "fries"
 print("The String is :" + str(solution(s1, s2)))
 print("The String is :" + str(solution2(s1, s2)))
 print("The String is :" + str(solution3(s1, s2)))
