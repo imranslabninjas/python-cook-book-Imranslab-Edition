@@ -1,11 +1,11 @@
-"""Given two string s1 and s2 check if they are anagrams. Two strings are anagrams if they are made of the same
+"""
+Given two string s1 and s2 check if they are anagrams. Two strings are anagrams if they are made of the same
 characters with the same frequencies
 Example:
     s1 = "danger"
     s2 = "garden"
 
     output: true
-    explanation:
 """
 
 
@@ -49,8 +49,9 @@ def solution2(string1, string2):
         return Counter(string1) == Counter(string2)
 
 
-"""Using Sorting function
-T(n) = O(nlogn) + o(nlogn) + n
+"""
+Using Sorting function
+T(n) = O(nlogn) + O(nlogn) + n
     ~= n
 """
 def solution3(string1, string2):
