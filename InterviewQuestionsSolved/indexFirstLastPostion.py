@@ -13,25 +13,27 @@ Solution is wrong, need to revisit
 
 
 def solution1(arr, target):
-    answer = [-1, -1]
+    start = -1
+    end = -1
+    answer = [start, end]
 
     for i in range(len(arr)):
         if arr[i] == target:
-            answer[0] = i
+            start = i
             while i + 1 < len(arr):
                 if arr[i + 1] == target:
-                    answer[1] = i + 1
+                    end = i + 1
                     i += 1
-                else:
+                elif arr[i + 1] != target:
                     return answer
+                answer = [start, end]
     return answer
 
 
 def solution2(arr, target):
-    output = [-1, -1]
-    output[0] = get_first_occurance_solution2(arr, target)
-    output[1] = get_last_occurance_solution2(arr, target)
-
+    start = get_first_occurance_solution2(arr, target)
+    end = get_last_occurance_solution2(arr, target)
+    output = [start, end]
     return output
 
 
@@ -45,9 +47,11 @@ def get_first_occurance_solution2(arr, target):
 def get_last_occurance_solution2(arr, target):
     for i in range(len(arr)):
         if arr[i] == target:
-            while arr[i] == target and i < len(arr):
+            while arr[i] == target and i+1 < len(arr):
                 if arr[i + 1] != target:
                     return i
+                elif i + 1 == len(arr) -1:
+                    return i + 1
                 i = +1
     return -1
 
