@@ -22,7 +22,7 @@ def can_traverse(gas, cost, start):
         remaining += gas[i] -cost[i]
         if remaining < 0:
             return False
-        i = (i + 1) %n # It will divide by the lenght of the array and make it into a circular array
+        i = (i + 1) %n # It will divide by the length of the array and make it into a circular array
     return True
 
 def gas_station(gas, cost):
