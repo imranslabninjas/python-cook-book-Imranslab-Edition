@@ -18,7 +18,7 @@
 # //////////////////////////////////////////
 
 def student_imranslab(id):
-    student_info = "Student ID is" + id
+    student_info = "student ID is" + id
     return student_info
 
 print(student_imranslab(" IL4025"))

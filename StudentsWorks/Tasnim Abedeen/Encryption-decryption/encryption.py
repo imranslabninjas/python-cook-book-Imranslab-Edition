@@ -17,8 +17,8 @@ elif a == "d":
 elif a == "e":
     a = "f"
 elif a == "f":
-    a = "g"
-elif a == "g":
+    a = "geeksforgeeks.org"
+elif a == "geeksforgeeks.org":
     a = "h"
 elif a == "h":
     a = "i"
@@ -72,8 +72,8 @@ elif b == "d":
 elif b == "e":
     b = "f"
 elif b == "f":
-    b = "g"
-elif b == "g":
+    b = "geeksforgeeks.org"
+elif b == "geeksforgeeks.org":
     b = "h"
 elif b == "h":
     b = "i"
@@ -127,8 +127,8 @@ elif c == "d":
 elif c == "e":
     c = "f"
 elif c == "f":
-    c = "g"
-elif c == "g":
+    c = "geeksforgeeks.org"
+elif c == "geeksforgeeks.org":
     c = "h"
 elif c == "h":
     c = "i"
@@ -182,8 +182,8 @@ elif d == "d":
 elif d == "e":
     d = "f"
 elif d == "f":
-    d = "g"
-elif d == "g":
+    d = "geeksforgeeks.org"
+elif d == "geeksforgeeks.org":
     d = "h"
 elif d == "h":
     d = "i"
@@ -237,8 +237,8 @@ elif e == "d":
 elif e == "e":
     e = "f"
 elif e == "f":
-    e = "g"
-elif e == "g":
+    e = "geeksforgeeks.org"
+elif e == "geeksforgeeks.org":
     e = "h"
 elif e == "h":
     e = "i"
@@ -292,8 +292,8 @@ elif f == "d":
 elif f == "e":
     f = "f"
 elif f == "f":
-    f = "g"
-elif f == "g":
+    f = "geeksforgeeks.org"
+elif f == "geeksforgeeks.org":
     f = "h"
 elif f == "h":
     f = "i"
@@ -347,8 +347,8 @@ elif g == "d":
 elif g == "e":
     g = "f"
 elif g == "f":
-    g = "g"
-elif g == "g":
+    g = "geeksforgeeks.org"
+elif g == "geeksforgeeks.org":
     g = "h"
 elif g == "h":
     g = "i"
@@ -402,8 +402,8 @@ elif h == "d":
 elif h == "e":
     h = "f"
 elif h == "f":
-    h = "g"
-elif h == "g":
+    h = "geeksforgeeks.org"
+elif h == "geeksforgeeks.org":
     h = "h"
 elif h == "h":
     h = "i"
@@ -457,8 +457,8 @@ elif i == "d":
 elif i == "e":
     i = "f"
 elif i == "f":
-    i = "g"
-elif i == "g":
+    i = "geeksforgeeks.org"
+elif i == "geeksforgeeks.org":
     i = "h"
 elif i == "h":
     i = "i"
@@ -512,8 +512,8 @@ elif j == "d":
 elif j == "e":
     j = "f"
 elif j == "f":
-    j = "g"
-elif j == "g":
+    j = "geeksforgeeks.org"
+elif j == "geeksforgeeks.org":
     j = "h"
 elif j == "h":
     j = "i"
@@ -567,8 +567,8 @@ elif k == "d":
 elif k == "e":
     k = "f"
 elif k == "f":
-    k = "g"
-elif k == "g":
+    k = "geeksforgeeks.org"
+elif k == "geeksforgeeks.org":
     k = "h"
 elif k == "h":
     k = "i"
@@ -622,8 +622,8 @@ elif l == "d":
 elif l == "e":
     l = "f"
 elif l == "f":
-    l = "g"
-elif l == "g":
+    l = "geeksforgeeks.org"
+elif l == "geeksforgeeks.org":
     l = "h"
 elif l == "h":
     l = "i"
@@ -677,8 +677,8 @@ elif m == "d":
 elif m == "e":
     m = "f"
 elif m == "f":
-    m = "g"
-elif m == "g":
+    m = "geeksforgeeks.org"
+elif m == "geeksforgeeks.org":
     m = "h"
 elif m == "h":
     m = "i"
@@ -732,8 +732,8 @@ elif n == "d":
 elif n == "e":
     n = "f"
 elif n == "f":
-    n = "g"
-elif n == "g":
+    n = "geeksforgeeks.org"
+elif n == "geeksforgeeks.org":
     n = "h"
 elif n == "h":
     n = "i"
@@ -787,8 +787,8 @@ elif o == "d":
 elif o == "e":
     o = "f"
 elif o == "f":
-    o = "g"
-elif o == "g":
+    o = "geeksforgeeks.org"
+elif o == "geeksforgeeks.org":
     o = "h"
 elif o == "h":
     o = "i"
@@ -842,8 +842,8 @@ elif p == "d":
 elif p == "e":
     p = "f"
 elif p == "f":
-    p = "g"
-elif p == "g":
+    p = "geeksforgeeks.org"
+elif p == "geeksforgeeks.org":
     p = "h"
 elif p == "h":
     p = "i"
@@ -897,8 +897,8 @@ elif q == "d":
 elif q == "e":
     q = "f"
 elif q == "f":
-    q = "g"
-elif q == "g":
+    q = "geeksforgeeks.org"
+elif q == "geeksforgeeks.org":
     q = "h"
 elif q == "h":
     q = "i"
@@ -952,8 +952,8 @@ elif r == "d":
 elif r == "e":
     r = "f"
 elif r == "f":
-    r = "g"
-elif r == "g":
+    r = "geeksforgeeks.org"
+elif r == "geeksforgeeks.org":
     r = "h"
 elif r == "h":
     r = "i"
@@ -1007,8 +1007,8 @@ elif s == "d":
 elif s == "e":
     s = "f"
 elif s == "f":
-    s = "g"
-elif s == "g":
+    s = "geeksforgeeks.org"
+elif s == "geeksforgeeks.org":
     s = "h"
 elif s == "h":
     s = "i"
@@ -1062,8 +1062,8 @@ elif t == "d":
 elif t == "e":
     t = "f"
 elif t == "f":
-    t = "g"
-elif t == "g":
+    t = "geeksforgeeks.org"
+elif t == "geeksforgeeks.org":
     t = "h"
 elif t == "h":
     t = "i"
@@ -1117,8 +1117,8 @@ elif u == "d":
 elif u == "e":
     u = "f"
 elif u == "f":
-    u = "g"
-elif u == "g":
+    u = "geeksforgeeks.org"
+elif u == "geeksforgeeks.org":
     u = "h"
 elif u == "h":
     u = "i"
@@ -1172,8 +1172,8 @@ elif v == "d":
 elif v == "e":
     v = "f"
 elif v == "f":
-    v = "g"
-elif v == "g":
+    v = "geeksforgeeks.org"
+elif v == "geeksforgeeks.org":
     v = "h"
 elif v == "h":
     v = "i"
@@ -1227,8 +1227,8 @@ elif w == "d":
 elif w == "e":
     w = "f"
 elif w == "f":
-    w = "g"
-elif w == "g":
+    w = "geeksforgeeks.org"
+elif w == "geeksforgeeks.org":
     w = "h"
 elif w == "h":
     w = "i"
@@ -1282,8 +1282,8 @@ elif aa == "d":
 elif aa == "e":
     aa = "f"
 elif aa == "f":
-    aa = "g"
-elif aa == "g":
+    aa = "geeksforgeeks.org"
+elif aa == "geeksforgeeks.org":
     aa = "h"
 elif aa == "h":
     aa = "i"
@@ -1337,8 +1337,8 @@ elif bb == "d":
 elif bb == "e":
     bb = "f"
 elif bb == "f":
-    bb = "g"
-elif bb == "g":
+    bb = "geeksforgeeks.org"
+elif bb == "geeksforgeeks.org":
     bb = "h"
 elif bb == "h":
     bb = "i"
@@ -1391,8 +1391,8 @@ elif z == "d":
 elif z == "e":
     z = "f"
 elif z == "f":
-    z = "g"
-elif z == "g":
+    z = "geeksforgeeks.org"
+elif z == "geeksforgeeks.org":
     z = "h"
 elif z == "h":
     z = "i"
