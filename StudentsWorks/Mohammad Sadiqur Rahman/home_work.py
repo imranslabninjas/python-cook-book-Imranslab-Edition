@@ -1,6 +1,6 @@
 #01. write about imranslab one time and print it 3 times?
 for i in range(0,3):
-    i = "It is an noonline platform to learn Python."
+    i = "It is an online platform to learn Python."
     print(i)
 print("\n")
 
